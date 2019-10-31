@@ -1,0 +1,9 @@
+{
+  "name": "ElementarySandbox.app",
+  "version": "0.0.0",
+  "main": "index.html",
+  "repository": "https://github.com/ElementaryStudio/dotcom.git",
+  "author": "Yuuki Wesp <ls-micro@ya.ru>",
+  "license": "unlicensed",
+  "private": true
+}
