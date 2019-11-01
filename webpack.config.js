@@ -1,5 +1,7 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require("path");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
     entry: "./src/scripts/@boom.js",
     output: {
@@ -43,5 +45,11 @@ module.exports = {
             filename: '@nya.css',
             ignoreOrder: false, // Enable to remove warnings about conflicting order
         }),
+        new HtmlWebpackPlugin({
+            template: './index.html',
+        }),
+        new CopyWebpackPlugin([
+            { from: 'src/img' }
+        ])
     ],
 };
