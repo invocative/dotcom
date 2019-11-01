@@ -1,0 +1,27 @@
+{
+  "name": "ElementarySandbox.app",
+  "version": "0.0.0",
+  "main": "index.html",
+  "repository": "https://github.com/ElementaryStudio/dotcom.git",
+  "author": "Yuuki Wesp <ls-micro@ya.ru>",
+  "license": "unlicensed",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "less": "^3.10.3",
+    "mini-css-extract-plugin": "^0.8.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "build": "lessc ./styles/@nya.less ./public/@nya.css"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "parallax-js": "^3.1.0",
+    "typed.js": "^2.0.11"
+  }
+}
