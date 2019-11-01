@@ -1,6 +1,6 @@
 {
   "name": "ElementarySandbox.app",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "index.html",
   "repository": "https://github.com/ElementaryStudio/dotcom.git",
   "author": "Yuuki Wesp <ls-micro@ya.ru>",
@@ -17,7 +17,7 @@
     "webpack-cli": "^3.3.10"
   },
   "scripts": {
-    "build": "lessc ./styles/@nya.less ./public/@nya.css"
+    "build": "webpack"
   },
   "dependencies": {
     "jquery": "^3.4.1",
