@@ -247,6 +247,7 @@ body {
 /* social */
 
 .btn {
+    cursor: pointer;
     margin-top: 15rem;
     pointer-events: all;
     opacity: 0.8;
