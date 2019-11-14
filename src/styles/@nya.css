@@ -259,6 +259,7 @@ body {
     line-height: 60px;
     outline: 0;
     width: 20%;
+    min-width: 180px;
 }
 
 .btn:hover {
