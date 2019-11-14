@@ -225,6 +225,7 @@ body {
     margin-bottom: 115px;
     font-family: "Nunito", sans-serif;
     text-align: center;
+    line-height: 1em;
 }
 
 #scene li.layer .text p {
@@ -233,6 +234,7 @@ body {
     font-family: "Josefin Slab", cursive;
     font-weight: bold;
     text-align: center;
+    line-height: 1em;
 }
 
 @media only screen and (max-width: 768px) {
